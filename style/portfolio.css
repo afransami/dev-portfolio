@@ -41,6 +41,7 @@ nav li {
     color: #ffffff;
     border-style: none;
 }
+
 .btn-contact {
     border: #FD6E0A;
     border: 1px solid #FD6E0A;
@@ -61,12 +62,25 @@ nav li {
 }
 
 .banner-title {
-    margin: 10px;
     width: 498px;
     height: 116px;
+    left: 230px;
+    top: 363px;
     font-size: 45px;
     font-family: 'Open Sans';
     font-style: normal;
+}
+
+.banner-sub-title {
+    width: 177px;
+    height: 61px;
+    left: 230px;
+    top: 297px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 61px;
 }
 
 .banner-description {
@@ -75,4 +89,3 @@ nav li {
     padding: 30px;
 
 }
-
