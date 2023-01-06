@@ -5,7 +5,7 @@
 
 .header {
     background: #FFF8F3;
-    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left;
 
@@ -62,7 +62,7 @@ nav li {
 }
 
 /* banner style */
-.banner{
+.banner {
     margin: 0 200px;
     display: flex;
     align-items: center;
@@ -84,4 +84,24 @@ nav li {
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
+}
+
+/* about and description style. */
+
+.about {
+    text-align: center;
+    margin-top: 300px;
+}
+
+.section-title {
+    text-align: center;
+    margin: 0px, 300px;
+    font-size: 45px;
+}
+
+.section-description {
+    text-align: center;
+    margin: 0px 500px;
+    color: #757575;
+    font-size: 18px;
 }
