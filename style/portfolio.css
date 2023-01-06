@@ -86,22 +86,44 @@ nav li {
     margin-bottom: 30px;
 }
 
+/* main section */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    background: #FFF8F3;
+
+}
 /* about and description style. */
 
 .about {
     text-align: center;
-    margin-top: 300px;
+    margin-top: 130px;
+    background: #FFF8F3;
+    padding: 130px 150px;
 }
 
 .section-title {
-    text-align: center;
-    margin: 0px, 300px;
-    font-size: 45px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
 }
 
 .section-description {
     text-align: center;
-    margin: 0px 500px;
+    margin-bottom: 30px;
     color: #757575;
     font-size: 18px;
+}
+
+/* personal-details style */
+
+.personal-details{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    margin: 10px 500px;
+    border: none;
+
 }
