@@ -111,7 +111,7 @@ main {
     margin-bottom: 30px;
     font-weight: 700;
     font-size: 35px;
-    
+
 }
 
 .section-description {
@@ -119,7 +119,7 @@ main {
     padding: 0px 100px;
     color: #757575;
     font-size: 18px;
-   
+
 }
 
 .about-info-cotainer {
@@ -127,15 +127,12 @@ main {
     justify-content: space-around;
     padding: 10px 90px;
     align-items: center;
-    
-
 }
 
 .about.info-title {
     color: #474747;
     font-weight: 700;
     font-size: 20px;
-   
 }
 
 .info-description {
@@ -145,12 +142,11 @@ main {
     gap: 50px;
 }
 
-.skils-container {
-    background: #FFFFFF;
+.skills-container {
+    margin: 30px;
     display: flex;
     gap: 24px;
-    text-align: left;
-    padding: 150px 30px 30px;
+    text-align: left;  
 }
 
 .skill-description {
@@ -160,18 +156,21 @@ main {
 }
 
 .skill-title {
+    margin-top: 30px;
     margin-bottom: 20px;
-    margin: 30px;
+    text-align: left;
     color: #181818;
     font-weight: 700;
     font-size: 20px;
 }
 
 .skill {
+    text-align: left;
+    margin-top: 30px;
+    padding: 30px 10px;
     background: #FFFFFF;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
-    padding: 30px;
 }
 
 /* .what-i-do-style */
@@ -179,20 +178,12 @@ main {
 .what-i-do-title {
     text-align: center;
     margin-top: 130px;
-    
 }
 
-/* .section-what-i-do-title {
-    color: #181818;
-    font-size: 35px;
-    font-weight: 700;
-    margin-bottom: 30px;     */
-}
+/* Resume section style */
 
-/* .section-what-i-do-description {
-    color: #474747;
-    font-size: 18px;     */
-}
-
-
-/* personal-details style */
+.section-title {
+    margin: 30px;
+    display: flex;
+    gap: 24px;
+    text-align: center; 
