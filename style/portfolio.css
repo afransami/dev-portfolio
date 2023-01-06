@@ -146,13 +146,15 @@ main {
     margin: 30px;
     display: flex;
     gap: 24px;
-    text-align: left;  
+    text-align: left;
 }
 
 .skill-description {
+    text-align:justify;
     color: #757575;
     font-weight: 400;
     font-size: 16px;
+
 }
 
 .skill-title {
@@ -176,14 +178,50 @@ main {
 /* .what-i-do-style */
 
 .what-i-do-title {
-    text-align: center;
+    text-align:center;
     margin-top: 130px;
 }
 
 /* Resume section style */
 
-.section-title {
-    margin: 30px;
+.section-title{
+    margin: 130px;
+    text-align: center;
+  
+}
+
+.resume-content {
     display: flex;
-    gap: 24px;
-    text-align: center; 
+    text-align:justify;
+    gap: 50px;
+    padding: 30px;  
+}
+
+.resume-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+
+}
+
+.resume-sub-title {
+    color: #474747;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.sub-title {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.resume .description {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+}
