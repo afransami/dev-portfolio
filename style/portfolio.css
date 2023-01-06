@@ -32,8 +32,6 @@ nav {
 nav ul {
     display: flex;
     align-items: center;
-
-
 }
 
 nav li {
@@ -88,12 +86,13 @@ nav li {
 
 /* main section */
 
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
     background: #FFF8F3;
 
 }
+
 /* about and description style. */
 
 .about {
@@ -101,9 +100,11 @@ main{
     margin-top: 130px;
     background: #FFF8F3;
     padding: 130px 150px;
+    border-radius: 10px;
 }
 
 .section-title {
+    text-align: center;
     margin-bottom: 30px;
     font-weight: 700;
     font-size: 35px;
@@ -116,14 +117,39 @@ main{
     font-size: 18px;
 }
 
+.about-info-cotainer {
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.about.info-title {
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
+    gap: 50px;
+    margin-top: 30px;
+   
+}
+
+.about .info-description {
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
+    gap: 50px;
+   
+}
+
 /* personal-details style */
 
-.personal-details{
+/* .personal-details {
     display: flex;
     align-items: center;
     list-style: none;
     justify-content: space-between;
     margin: 10px 500px;
-    border: none;
+    border: none; */
 
 }
