@@ -91,6 +91,7 @@ nav li {
 
 main {
     max-width: 1140px;
+    max-height: 550px;
     margin: 0 auto;
     background: #FFF8F3;
 }
@@ -101,7 +102,7 @@ main {
     text-align: center;
     margin-top: 130px;
     background: #FFF8F3;
-    padding: 130px 150px;
+    padding: 130px 20px;
     border-radius: 10px;
 }
 
@@ -110,31 +111,34 @@ main {
     margin-bottom: 30px;
     font-weight: 700;
     font-size: 35px;
+    
 }
 
 .section-description {
     text-align: center;
-    margin: 30px;
+    padding: 0px 100px;
     color: #757575;
     font-size: 18px;
+   
 }
 
 .about-info-cotainer {
     display: flex;
-    padding: 0 50px;
-    align-items: center;
     justify-content: space-around;
-    margin-bottom: 150px;
+    padding: 10px 90px;
+    align-items: center;
+    
+
 }
 
 .about.info-title {
     color: #474747;
     font-weight: 700;
     font-size: 20px;
-    gap: 50px;
+   
 }
 
-.about .info-description {
+.info-description {
     color: #474747;
     font-weight: 700;
     font-size: 20px;
@@ -142,9 +146,8 @@ main {
 }
 
 .skils-container {
+    background: #FFFFFF;
     display: flex;
-    /* align-items: center;
-    justify-content: space-around; */
     gap: 24px;
     text-align: left;
     padding: 150px 30px 30px;
@@ -158,6 +161,7 @@ main {
 
 .skill-title {
     margin-bottom: 20px;
+    margin: 30px;
     color: #181818;
     font-weight: 700;
     font-size: 20px;
@@ -167,6 +171,7 @@ main {
     background: #FFFFFF;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
+    padding: 30px;
 }
 
 /* .what-i-do-style */
@@ -174,8 +179,7 @@ main {
 .what-i-do-title {
     text-align: center;
     margin-top: 130px;
-    padding: 0 20px;
-
+    
 }
 
 /* .section-what-i-do-title {
