@@ -8,6 +8,7 @@
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left;
+    margin-left: 24px;
 
 
 }
@@ -16,11 +17,11 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 30px 200px;
 }
 
 .nav-title {
-    margin: 50px 200px;
+    padding: 30px 0;
     font-weight: 800;
     font-size: 45px;
 }
@@ -65,7 +66,6 @@ nav li {
     margin: 0 200px;
     display: flex;
     align-items: center;
-
 }
 
 .banner-title {
@@ -83,6 +83,8 @@ nav li {
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
+    text-align:left;
+
 }
 
 /* main section */
@@ -91,7 +93,6 @@ main {
     max-width: 1140px;
     margin: 0 auto;
     background: #FFF8F3;
-
 }
 
 /* about and description style. */
@@ -122,42 +123,40 @@ main {
     display: flex;
     padding: 0 50px;
     align-items: center;
-    justify-content: space-between;
-    
+    justify-content: space-around;    
 }
 
 .about.info-title {
     color: #474747;
     font-weight: 700;
     font-size: 20px;
-    gap: 50px;
-    
-   
+    gap: 50px;  
 }
 
 .about .info-description {
     color: #474747;
     font-weight: 700;
     font-size: 20px;
-    gap: 50px;
-   
+    gap: 50px;   
 }
 
 .what-i-do-title {
     text-align: center;
     margin-top: 130px;
-    /* background: #FFF8F3; */
-    padding: 130px 150px;
-    border-radius: 10px;
+    padding: 0 20px;
+         
+}
+
+.section-what-i-do-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;    
+}
+.section-what-i-do-description {
+    color: #474747;
+    font-size: 18px;    
+}
+
 
 /* personal-details style */
-
-/* .personal-details {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    justify-content: space-between;
-    margin: 10px 500px;
-    border: none; */
-
-}
