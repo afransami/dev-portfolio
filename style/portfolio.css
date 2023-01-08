@@ -5,24 +5,22 @@
 
 .header {
     background: #FFF8F3;
-    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-image: url('/images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left;
-    margin-left: 24px;
-
-
+    padding-top: 30px 20px;
+    
 }
 
 /* header and navigation styles */
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 30px 200px;
+    padding: 30px 150px;
 }
 
 .nav-title {
-    padding: 30px 0;
-    font-weight: 800;
+    font-weight:700;
     font-size: 45px;
 }
 
@@ -63,15 +61,18 @@ nav li {
 
 /* banner style */
 .banner {
-    margin: 0 200px;
+    margin:150px 10px 0 150px;
     display: flex;
-    align-items: center;
+    align-items:center;
+    justify-content: space-between;
+
 }
 
 .banner-title {
     font-weight: 700;
-    font-size: 85px;
+    font-size: 80px;
 }
+
 
 .banner-sub-title {
     font-weight: 600;
@@ -83,7 +84,10 @@ nav li {
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
-    text-align: left;
+    text-align: justify;
+    max-width: 450px;
+    max-height: 250px;
+    
 
 }
 
@@ -101,24 +105,24 @@ main {
 .about {
     text-align: center;
     margin-top: 130px;
-    background: #FFF8F3;
-    padding: 130px 20px;
     border-radius: 10px;
+
 }
 
 .section-title {
     text-align: center;
-    margin-bottom: 30px;
-    font-weight: 700;
-    font-size: 35px;
+    padding-top: 100px;
+    font-weight: 600;
+    font-size: 60px;
 
 }
 
 .section-description {
-    text-align: center;
-    padding: 0px 100px;
     color: #757575;
+    text-align: center;
+    padding: 0 100px;
     font-size: 18px;
+    margin: 10px;
 
 }
 
